@@ -96,11 +96,9 @@ public class SingleDimesionalArray {
 	// reverese the array and print in console
 	public static void main(String[] args) {
 		String[] arr = { "mango", "Orange", "Banana" };
-		for (int i = arr.length -1; i >= 0; i--) {
-			System.out.println("Reverse Array  " +arr[i]);
+		for (int i = arr.length - 1; i >= 0; i--) {
+			System.out.println("Reverse Array  " + arr[i]);
 		}
-
-		
 
 	}
 }
